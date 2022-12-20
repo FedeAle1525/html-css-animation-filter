@@ -68,3 +68,19 @@
     scale: 1.5;
     transition: all 5s;
 }
+
+/* ESERCIZIO 10 */
+
+@keyframes rotate{
+
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+.ex-10-icon{
+    animation: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
