@@ -45,3 +45,12 @@
     filter: hue-rotate(150deg) brightness(1.5);
     transition: filter 3s;
 }
+
+/* ESERCIZIO 8 */
+
+.ex-8-img:hover{
+    filter: hue-rotate(150deg) grayscale(1);
+    border-radius: 10%;
+    /* transition: all 5s; */
+    transition: filter 5s, border-radius 5s;
+}
