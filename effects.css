@@ -28,10 +28,15 @@
 
 /* ESERCIZIO 5 */
 
-/* .ex-5-square:hover{
+.ex-5-square:hover{
     scale: 2;
     transition: scale 1s;
-} */
+} 
+
+.ex-5-square:active{
+    scale: 0.5;
+    transition: scale 1s;
+}
 
 /* ESERCIZIO 6 */
 
