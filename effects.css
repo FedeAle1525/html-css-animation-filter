@@ -54,3 +54,12 @@
     /* transition: all 5s; */
     transition: filter 5s, border-radius 5s;
 }
+
+/* ESERCIZIO 9 */
+
+.ex-9-img:hover{
+    filter: hue-rotate(150deg) grayscale(1);
+    border-radius: 10%;
+    scale: 1.5;
+    transition: all 5s;
+}
