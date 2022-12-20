@@ -38,3 +38,10 @@
 .ex-6-img:hover{
     filter: grayscale(1);
 }
+
+/* ESERCIZIO 7 */
+
+.ex-7-img:hover{
+    filter: hue-rotate(150deg) brightness(1.5);
+    transition: filter 3s;
+}
